@@ -1,4 +1,5 @@
 # Output variable definitions
+# Output variable definitions
 output "resource_group_id" {
   description = "resource group id"
   value       = azurerm_resource_group.resource_group.id
